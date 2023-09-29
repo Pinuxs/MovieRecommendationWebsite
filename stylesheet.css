@@ -1,0 +1,187 @@
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.movie-card h2 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie-card p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.movie-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-card button:hover {
+  background-color: #45a049;
+}
+
+/* Horizontal scrollbar */
+.movie-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-cards {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+.login-logout {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-logout:hover {
+  background-color: #666;
+}
+#popular-movies {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.movie-card {
+  flex: 0 0 200px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+form {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #444;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+}
+.movie-card {
+  background-image: url('https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg');
+  background-size: cover;
+  background-position: center;
+}
